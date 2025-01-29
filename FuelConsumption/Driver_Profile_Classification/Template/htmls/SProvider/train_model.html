@@ -1,0 +1,81 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        background-color: #000;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 50px;
+    }
+
+    .text-uppercase {
+        font-size: 1.8rem;
+        text-align: center;
+        color: #ff4800;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table th,
+    table td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+    }
+
+    table th {
+        background-color: rgba(255, 87, 51, 0.8);
+        color: #f5f4f2;
+        font-weight: bold;
+    }
+
+    table td {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+    }
+
+    table tr:hover td {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fcfbfa;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <p class="text-uppercase">Driving Profile Classification Datasets Trained and Tested Results</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Model Type</th>
+                    <th>Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for object in objs %}
+                <tr>
+                    <td>{{ object.names }}</td>
+                    <td>{{ object.ratio }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+{% endblock %}

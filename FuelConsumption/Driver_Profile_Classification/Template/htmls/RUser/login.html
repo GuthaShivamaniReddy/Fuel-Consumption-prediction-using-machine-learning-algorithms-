@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('{% static "image.jpg" %}') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .container h1 {
+            font-size: 1.8rem;
+            color: #FF5733;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #FF5733;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid #FF5733;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav a:hover {
+            background-color: #FF5733;
+            color: #fff;
+        }
+
+        .container form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .container input[type="text"],
+        .container input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        .container input[type="submit"] {
+            background-color: #FF5733;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .container input[type="submit"]:hover {
+            background-color: #E04E2F;
+        }
+
+        .container footer {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Smart Fuel Consumption Prediction and Driver Profiling Using Machine Learning and ECU Data Analysis</h1>
+        <div class="nav">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'login' %}">Remote User</a>
+            <a href="{% url 'serviceproviderlogin' %}">Service Provider</a>
+        </div>
+        <form method="POST" role="form">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="User Name" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" name="submit1" value="Login">
+        </form>
+        <p style="margin-top: 15px;">
+            <a href="{% url 'Register1' %}" style="text-decoration:none; color: #FF5733;">New User? Register Here</a>
+        </p>
+        <footer>
+            &copy; 2024 Smart Fuel System.
+        </footer>
+    </div>
+</body>
+
+</html>

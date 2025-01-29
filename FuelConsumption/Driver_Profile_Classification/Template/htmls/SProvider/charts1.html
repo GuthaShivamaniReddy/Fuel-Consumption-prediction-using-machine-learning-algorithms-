@@ -1,0 +1,132 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        background-color: #000;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu table {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu table td:hover {
+        background: rgb(0, 0, 0);
+        color: #fff;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .menu table td {
+        background: #222;
+        color: #FFD700;
+        padding: 15px;
+        font-weight: 500;
+        font-size: 1rem;
+        border: 1px solid #555;
+    }
+
+    .menu table th {
+        background: #FF5733;
+        color: #fff;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    .topic h1 {
+        color: #ff4800;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif; /* Updated font style */
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    #chartContainer {
+        width: 1180px;
+        margin: 30px auto;
+        padding: 20px;
+        background: transparent;
+    }
+
+    .sidemenu {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sidemenu a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background: #FF5733;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    .sidemenu a:hover {
+        background: #fcfbfa;
+        color: #333;
+    }
+
+    .sidemenu h3 {
+        margin-bottom: 20px;
+    }
+</style>
+
+<script>
+    window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            animationEnabled: true,
+            title: {
+                text: ""
+            },
+            data: [{
+                {% if chart_type == "line" %}
+                type: "line",
+                {% elif chart_type == "pie" %}
+                type: "pie",
+                {% elif chart_type == "spline" %}
+                type: "spline",
+                {% endif %}
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    {% for o in form %}
+                    { y: {{ o.dcount }}, label: "{{ o.names }}" },
+                    {% endfor %}
+                ]
+            }]
+        });
+        chart.render();
+    }
+</script>
+
+<body>
+    <div class="topic">
+        <h1>Driving Profile Classification Charts</h1>
+    </div>
+
+    <div class="sidemenu">
+        <h3>
+            <a href="{% url 'charts1' 'pie' %}">PIE CHART</a>
+            <a href="{% url 'charts1' 'line' %}">LINE CHART</a>
+            <a href="{% url 'charts1' 'spline' %}">SPLINE CHART</a>
+        </h3>
+    </div>
+
+    <div id="chartContainer"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+{% endblock %}

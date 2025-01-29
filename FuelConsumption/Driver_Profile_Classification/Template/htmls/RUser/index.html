@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #004e92, #000428);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #f8f9fa;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            color: #000;
+        }
+
+        .slider {
+            position: relative;
+            max-width: 100%;
+            overflow: hidden;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .slides img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .slide-content {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 80%;
+        }
+
+        .slide-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .slide-content p {
+            font-size: 1rem;
+        }
+
+        .slider-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .slider-controls button {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 50%;
+        }
+
+        .slider-controls button:hover {
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .content ol {
+            list-style: none;
+            padding: 0;
+            font-size: 1rem;
+        }
+
+        .content ol li {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #d4d4d4;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const slides = document.querySelectorAll('.slides img');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.style.display = i === index ? 'block' : 'none';
+                });
+            }
+
+            function autoSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            setInterval(autoSlide, 5000);
+
+            showSlide(currentSlide);
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Smart Fuel Consumption Prediction and Driver Profiling Using Machine Learning and ECU Data Analysis
+            </h1>
+        </div>
+        <div class="navbar">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'login' %}">Remote User</a>
+            <a href="{% url 'serviceproviderlogin' %}">Service Provider</a>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <img src="{% static 'slide1.jpg' %}" alt="Slide 1">
+                <img src="{% static 'slide2.jpg' %}" alt="Slide 2" style="display:none;">
+                <img src="{% static 'slide3.jpg' %}" alt="Slide 3" style="display:none;">
+            </div>
+            <div class="slider-controls">
+                <button>&#10094;</button>
+                <button>&#10095;</button>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Steps for Smart Fuel Analysis</h2>
+            <ol>
+                <li>Collect ECU data from the vehicle.</li>
+                <li>Analyze the data using machine learning models.</li>
+                <li>Provide driver profiling based on fuel consumption patterns.</li>
+                <li>Optimize vehicle performance and fuel efficiency.</li>
+            </ol>
+        </div>
+        <div class="footer">
+            &copy; 2024 Smart Fuel System.
+        </div>
+    </div>
+</body>
+
+</html>

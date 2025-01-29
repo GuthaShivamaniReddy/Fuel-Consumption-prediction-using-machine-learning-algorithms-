@@ -1,0 +1,541 @@
+sexofdriver,agebandofdriver,educationlevel,vehicledriverrelation,driverexperience,typeofvehicle,ownerofvehicle,defectofvehicle,roadsurfacecondition,fuelconsumption,label
+Male,46-60,Doctorate,Family Member,3-5 years,Car,Private,Tyre Burst,Gravel,18,0
+Male,60,Postgraduate,Employee,1 year,Car,Leased,Engine Issue,Dry,20,1
+Female,46-60,Undergraduate,Employee,3-5 years,Truck,Leased,Tyre Burst,Wet,7,0
+Male,60,Undergraduate,Owner,1-3 years,Bus,Private,Brake Failure,Wet,20,0
+Male,36-45,Undergraduate,Family Member,1-3 years,Van,Company,Tyre Burst,Gravel,16,1
+Male,60,Undergraduate,Family Member,1 year,Car,Leased,Brake Failure,Snowy,18,1
+Male,18-25,Undergraduate,Employee,3-5 years,Bus,Leased,Engine Issue,Dry,15,1
+Male,18-25,Postgraduate,Owner,5 years,Bus,Leased,Tyre Burst,Wet,15,1
+Female,60,Doctorate,Employee,1-3 years,Van,Private,Tyre Burst,Dry,8,0
+Male,36-45,Postgraduate,Employee,1-3 years,Truck,Private,Tyre Burst,Gravel,10,1
+Male,36-45,Postgraduate,Owner,1-3 years,Bus,Leased,Engine Issue,Icy,15,1
+Male,18-25,Postgraduate,Family Member,1-3 years,Bus,Company,Engine Issue,Gravel,18,1
+Male,36-45,Doctorate,Family Member,5 years,Bus,Private,Brake Failure,Gravel,20,1
+Male,46-60,Doctorate,Employee,1 year,Truck,Company,None,Gravel,14,0
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Private,Engine Issue,Wet,17,0
+Male,46-60,Postgraduate,Employee,3-5 years,Car,Private,Tyre Burst,Gravel,6,0
+Female,18-25,Undergraduate,Owner,5 years,Car,Company,Brake Failure,Icy,19,1
+Male,36-45,Doctorate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,7,0
+Female,60,Doctorate,Employee,3-5 years,Truck,Company,Tyre Burst,Icy,15,0
+Female,26-35,Doctorate,Family Member,1-3 years,Truck,Private,Engine Issue,Snowy,13,1
+Male,60,Doctorate,Family Member,1 year,Van,Company,None,Gravel,15,0
+Male,18-25,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Icy,8,0
+Female,36-45,Undergraduate,Owner,1 year,Car,Company,Engine Issue,Snowy,17,1
+Female,60,Doctorate,Family Member,5 years,Van,Company,Brake Failure,Gravel,5,0
+Female,60,Undergraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Gravel,19,1
+Male,26-35,Doctorate,Family Member,1-3 years,Car,Company,Brake Failure,Dry,18,0
+Male,26-35,Undergraduate,Employee,5+ years,Bus,Company,Engine Issue,Gravel,6,0
+Female,36-45,Undergraduate,Owner,3-5 years,Truck,Private,Engine Issue,Dry,11,1
+Male,26-35,Doctorate,Employee,3-5 years,Bus,Company,Engine Issue,Wet,16,0
+Male,60,Doctorate,Owner,1-3 years,Van,Private,Engine Issue,Wet,20,1
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0
+Male,46-60,Doctorate,Family Member,3-5 years,Car,Private,Tyre Burst,Gravel,18,0
+Male,60,Postgraduate,Employee,1 year,Car,Leased,Engine Issue,Dry,20,1
+Female,46-60,Undergraduate,Employee,3-5 years,Truck,Leased,Tyre Burst,Wet,7,0
+Male,60,Undergraduate,Owner,1-3 years,Bus,Private,Brake Failure,Wet,20,0
+Male,36-45,Undergraduate,Family Member,1-3 years,Van,Company,Tyre Burst,Gravel,16,1
+Male,60,Undergraduate,Family Member,1 year,Car,Leased,Brake Failure,Snowy,18,1
+Male,18-25,Undergraduate,Employee,3-5 years,Bus,Leased,Engine Issue,Dry,15,1
+Male,18-25,Postgraduate,Owner,5 years,Bus,Leased,Tyre Burst,Wet,15,1
+Female,60,Doctorate,Employee,1-3 years,Van,Private,Tyre Burst,Dry,8,0
+Male,36-45,Postgraduate,Employee,1-3 years,Truck,Private,Tyre Burst,Gravel,10,1
+Male,36-45,Postgraduate,Owner,1-3 years,Bus,Leased,Engine Issue,Icy,15,1
+Male,18-25,Postgraduate,Family Member,1-3 years,Bus,Company,Engine Issue,Gravel,18,1
+Male,36-45,Doctorate,Family Member,5 years,Bus,Private,Brake Failure,Gravel,20,1
+Male,46-60,Doctorate,Employee,1 year,Truck,Company,None,Gravel,14,0
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Private,Engine Issue,Wet,17,0
+Male,46-60,Postgraduate,Employee,3-5 years,Car,Private,Tyre Burst,Gravel,6,0
+Female,18-25,Undergraduate,Owner,5 years,Car,Company,Brake Failure,Icy,19,1
+Male,36-45,Doctorate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,7,0
+Female,60,Doctorate,Employee,3-5 years,Truck,Company,Tyre Burst,Icy,15,0
+Female,26-35,Doctorate,Family Member,1-3 years,Truck,Private,Engine Issue,Snowy,13,1
+Male,60,Doctorate,Family Member,1 year,Van,Company,None,Gravel,15,0
+Male,18-25,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Icy,8,0
+Female,36-45,Undergraduate,Owner,1 year,Car,Company,Engine Issue,Snowy,17,1
+Female,60,Doctorate,Family Member,5 years,Van,Company,Brake Failure,Gravel,5,0
+Female,60,Undergraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Gravel,19,1
+Male,26-35,Doctorate,Family Member,1-3 years,Car,Company,Brake Failure,Dry,18,0
+Male,26-35,Undergraduate,Employee,5+ years,Bus,Company,Engine Issue,Gravel,6,0
+Female,36-45,Undergraduate,Owner,3-5 years,Truck,Private,Engine Issue,Dry,11,1
+Male,26-35,Doctorate,Employee,3-5 years,Bus,Company,Engine Issue,Wet,16,0
+Male,60,Doctorate,Owner,1-3 years,Van,Private,Engine Issue,Wet,20,1
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0
+Male,46-60,Doctorate,Family Member,3-5 years,Car,Private,Tyre Burst,Gravel,18,0
+Male,60,Postgraduate,Employee,1 year,Car,Leased,Engine Issue,Dry,20,1
+Female,46-60,Undergraduate,Employee,3-5 years,Truck,Leased,Tyre Burst,Wet,7,0
+Male,60,Undergraduate,Owner,1-3 years,Bus,Private,Brake Failure,Wet,20,0
+Male,36-45,Undergraduate,Family Member,1-3 years,Van,Company,Tyre Burst,Gravel,16,1
+Male,60,Undergraduate,Family Member,1 year,Car,Leased,Brake Failure,Snowy,18,1
+Male,18-25,Undergraduate,Employee,3-5 years,Bus,Leased,Engine Issue,Dry,15,1
+Male,18-25,Postgraduate,Owner,5 years,Bus,Leased,Tyre Burst,Wet,15,1
+Female,60,Doctorate,Employee,1-3 years,Van,Private,Tyre Burst,Dry,8,0
+Male,36-45,Postgraduate,Employee,1-3 years,Truck,Private,Tyre Burst,Gravel,10,1
+Male,36-45,Postgraduate,Owner,1-3 years,Bus,Leased,Engine Issue,Icy,15,1
+Male,18-25,Postgraduate,Family Member,1-3 years,Bus,Company,Engine Issue,Gravel,18,1
+Male,36-45,Doctorate,Family Member,5 years,Bus,Private,Brake Failure,Gravel,20,1
+Male,46-60,Doctorate,Employee,1 year,Truck,Company,None,Gravel,14,0
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Private,Engine Issue,Wet,17,0
+Male,46-60,Postgraduate,Employee,3-5 years,Car,Private,Tyre Burst,Gravel,6,0
+Female,18-25,Undergraduate,Owner,5 years,Car,Company,Brake Failure,Icy,19,1
+Male,36-45,Doctorate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,7,0
+Female,60,Doctorate,Employee,3-5 years,Truck,Company,Tyre Burst,Icy,15,0
+Female,26-35,Doctorate,Family Member,1-3 years,Truck,Private,Engine Issue,Snowy,13,1
+Male,60,Doctorate,Family Member,1 year,Van,Company,None,Gravel,15,0
+Male,18-25,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Icy,8,0
+Female,36-45,Undergraduate,Owner,1 year,Car,Company,Engine Issue,Snowy,17,1
+Female,60,Doctorate,Family Member,5 years,Van,Company,Brake Failure,Gravel,5,0
+Female,60,Undergraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Gravel,19,1
+Male,26-35,Doctorate,Family Member,1-3 years,Car,Company,Brake Failure,Dry,18,0
+Male,26-35,Undergraduate,Employee,5+ years,Bus,Company,Engine Issue,Gravel,6,0
+Female,36-45,Undergraduate,Owner,3-5 years,Truck,Private,Engine Issue,Dry,11,1
+Male,26-35,Doctorate,Employee,3-5 years,Bus,Company,Engine Issue,Wet,16,0
+Male,60,Doctorate,Owner,1-3 years,Van,Private,Engine Issue,Wet,20,1
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0
+Male,46-60,Doctorate,Family Member,3-5 years,Car,Private,Tyre Burst,Gravel,18,0
+Male,60,Postgraduate,Employee,1 year,Car,Leased,Engine Issue,Dry,20,1
+Female,46-60,Undergraduate,Employee,3-5 years,Truck,Leased,Tyre Burst,Wet,7,0
+Male,60,Undergraduate,Owner,1-3 years,Bus,Private,Brake Failure,Wet,20,0
+Male,36-45,Undergraduate,Family Member,1-3 years,Van,Company,Tyre Burst,Gravel,16,1
+Male,60,Undergraduate,Family Member,1 year,Car,Leased,Brake Failure,Snowy,18,1
+Male,18-25,Undergraduate,Employee,3-5 years,Bus,Leased,Engine Issue,Dry,15,1
+Male,18-25,Postgraduate,Owner,5 years,Bus,Leased,Tyre Burst,Wet,15,1
+Female,60,Doctorate,Employee,1-3 years,Van,Private,Tyre Burst,Dry,8,0
+Male,36-45,Postgraduate,Employee,1-3 years,Truck,Private,Tyre Burst,Gravel,10,1
+Male,36-45,Postgraduate,Owner,1-3 years,Bus,Leased,Engine Issue,Icy,15,1
+Male,18-25,Postgraduate,Family Member,1-3 years,Bus,Company,Engine Issue,Gravel,18,1
+Male,36-45,Doctorate,Family Member,5 years,Bus,Private,Brake Failure,Gravel,20,1
+Male,46-60,Doctorate,Employee,1 year,Truck,Company,None,Gravel,14,0
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Private,Engine Issue,Wet,17,0
+Male,46-60,Postgraduate,Employee,3-5 years,Car,Private,Tyre Burst,Gravel,6,0
+Female,18-25,Undergraduate,Owner,5 years,Car,Company,Brake Failure,Icy,19,1
+Male,36-45,Doctorate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,7,0
+Female,60,Doctorate,Employee,3-5 years,Truck,Company,Tyre Burst,Icy,15,0
+Female,26-35,Doctorate,Family Member,1-3 years,Truck,Private,Engine Issue,Snowy,13,1
+Male,60,Doctorate,Family Member,1 year,Van,Company,None,Gravel,15,0
+Male,18-25,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Icy,8,0
+Female,36-45,Undergraduate,Owner,1 year,Car,Company,Engine Issue,Snowy,17,1
+Female,60,Doctorate,Family Member,5 years,Van,Company,Brake Failure,Gravel,5,0
+Female,60,Undergraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Gravel,19,1
+Male,26-35,Doctorate,Family Member,1-3 years,Car,Company,Brake Failure,Dry,18,0
+Male,26-35,Undergraduate,Employee,5+ years,Bus,Company,Engine Issue,Gravel,6,0
+Female,36-45,Undergraduate,Owner,3-5 years,Truck,Private,Engine Issue,Dry,11,1
+Male,26-35,Doctorate,Employee,3-5 years,Bus,Company,Engine Issue,Wet,16,0
+Male,60,Doctorate,Owner,1-3 years,Van,Private,Engine Issue,Wet,20,1
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0
+Female,60,Undergraduate,Owner,1-3 years,Van,Leased,Engine Issue,Snowy,19,1
+Male,18-25,Postgraduate,Employee,1 year,Van,Leased,None,Dry,6,1
+Female,60,Doctorate,Employee,1-3 years,Bike,Private,Brake Failure,Wet,11,1
+Female,36-45,Doctorate,Owner,5+ years,Bus,Company,None,Wet,13,0
+Female,46-60,Postgraduate,Employee,3-5 years,Van,Private,Brake Failure,Wet,9,0
+Male,18-25,Postgraduate,Family Member,3-5 years,Van,Leased,Tyre Burst,Gravel,14,1
+Female,18-25,Doctorate,Family Member,1 year,Bus,Private,Tyre Burst,Dry,19,0
+Male,36-45,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Wet,20,0
+Female,36-45,Doctorate,Family Member,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Male,26-35,Doctorate,Family Member,5 years,Truck,Private,Tyre Burst,Icy,5,0
+Female,18-25,Undergraduate,Family Member,3-5 years,Bus,Private,Tyre Burst,Icy,12,1
+Female,26-35,Undergraduate,Owner,1 year,Bus,Private,None,Gravel,10,0
+Male,60,Undergraduate,Family Member,1 year,Bike,Private,None,Icy,14,1
+Male,18-25,Doctorate,Family Member,3-5 years,Truck,Leased,Engine Issue,Snowy,5,0
+Male,18-25,Undergraduate,Employee,1-3 years,Bike,Private,Brake Failure,Dry,18,0
+Male,46-60,Doctorate,Family Member,3-5 years,Van,Private,Tyre Burst,Wet,7,1
+Female,18-25,Doctorate,Owner,1 year,Bus,Private,Brake Failure,Snowy,12,1
+Male,60,Undergraduate,Owner,1 year,Truck,Company,Engine Issue,Snowy,8,1
+Male,26-35,Doctorate,Employee,5+ years,Bike,Leased,Engine Issue,Icy,19,1
+Male,26-35,Undergraduate,Owner,3-5 years,Bus,Private,Tyre Burst,Dry,8,0
+Female,46-60,Undergraduate,Owner,3-5 years,Car,Leased,Engine Issue,Wet,9,1
+Female,60,Undergraduate,Family Member,5 years,Bike,Private,Tyre Burst,Snowy,20,1
+Female,26-35,Undergraduate,Family Member,1 year,Truck,Company,Engine Issue,Gravel,14,0
+Female,36-45,Undergraduate,Owner,5 years,Bike,Leased,Engine Issue,Wet,13,0
+Male,60,Postgraduate,Employee,1-3 years,Bike,Company,Tyre Burst,Icy,18,1
+Female,60,Postgraduate,Employee,3-5 years,Bike,Company,Engine Issue,Dry,20,1
+Female,46-60,Postgraduate,Family Member,1 year,Van,Private,Engine Issue,Gravel,20,1
+Male,26-35,Postgraduate,Owner,5 years,Car,Leased,Engine Issue,Wet,12,1
+Female,60,Postgraduate,Family Member,1 year,Truck,Leased,Brake Failure,Wet,19,1
+Male,26-35,Undergraduate,Employee,1-3 years,Truck,Leased,None,Snowy,9,1
+Male,36-45,Doctorate,Owner,3-5 years,Truck,Leased,Brake Failure,Wet,17,1
+Male,46-60,Doctorate,Family Member,5 years,Bus,Private,Engine Issue,Dry,11,0
+Male,36-45,Undergraduate,Family Member,1 year,Truck,Private,None,Dry,9,1
+Female,46-60,Doctorate,Employee,3-5 years,Truck,Company,Brake Failure,Wet,7,1
+Female,60,Doctorate,Family Member,3-5 years,Car,Private,Brake Failure,Snowy,13,0
+Female,46-60,Postgraduate,Employee,1 year,Bus,Leased,Brake Failure,Gravel,18,0
+Male,18-25,Postgraduate,Employee,3-5 years,Bus,Private,Tyre Burst,Gravel,15,1
+Female,26-35,Postgraduate,Owner,3-5 years,Bike,Company,Engine Issue,Snowy,13,1
+Male,26-35,Doctorate,Owner,5 years,Van,Leased,Engine Issue,Icy,5,1
+Male,18-25,Postgraduate,Family Member,3-5 years,Bus,Leased,None,Dry,14,1
+Male,36-45,Undergraduate,Employee,5 years,Bus,Company,Brake Failure,Icy,14,0
+Female,18-25,Doctorate,Employee,3-5 years,Car,Company,Engine Issue,Snowy,20,1
+Female,60,Doctorate,Owner,1-3 years,Truck,Leased,Brake Failure,Icy,9,1
+Female,60,Postgraduate,Owner,1-3 years,Bus,Private,Engine Issue,Snowy,19,0
+Male,26-35,Undergraduate,Employee,5 years,Bus,Private,Brake Failure,Gravel,20,0
+Male,60,Postgraduate,Owner,5 years,Van,Leased,Engine Issue,Gravel,16,1
+Female,26-35,Postgraduate,Family Member,1-3 years,Car,Leased,None,Icy,15,1
+Male,18-25,Doctorate,Employee,3-5 years,Van,Leased,Brake Failure,Icy,17,0
+Female,18-25,Doctorate,Owner,5 years,Bus,Private,Engine Issue,Dry,19,1
+Female,18-25,Postgraduate,Family Member,1 year,Bus,Private,None,Gravel,15,0
+Female,26-35,Doctorate,Employee,3-5 years,Car,Leased,None,Dry,11,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bike,Company,Engine Issue,Icy,12,1
+Female,18-25,Doctorate,Family Member,1-3 years,Bike,Leased,Brake Failure,Snowy,17,0
+Male,36-45,Postgraduate,Employee,5 years,Bus,Leased,Tyre Burst,Gravel,12,0
+Male,18-25,Doctorate,Family Member,3-5 years,Bus,Private,None,Snowy,18,0
+Female,60,Postgraduate,Owner,5 years,Van,Leased,None,Dry,6,1
+Female,26-35,Doctorate,Owner,5 years,Van,Private,Engine Issue,Dry,15,1
+Female,36-45,Undergraduate,Owner,5 years,Van,Company,Tyre Burst,Wet,20,0
+Female,46-60,Doctorate,Family Member,1-3 years,Truck,Leased,Tyre Burst,Gravel,17,1
+Male,26-35,Postgraduate,Owner,5 years,Bus,Company,Tyre Burst,Gravel,17,0
+Male,60,Doctorate,Family Member,1-3 years,Truck,Leased,Engine Issue,Dry,9,0
+Female,26-35,Postgraduate,Owner,1 year,Bike,Company,Brake Failure,Snowy,20,1
+Male,60,Postgraduate,Employee,3-5 years,Bus,Private,None,Gravel,6,1
+Male,60,Doctorate,Family Member,3-5 years,Bus,Leased,Engine Issue,Dry,9,1
+Male,46-60,Postgraduate,Family Member,1 year,Car,Leased,Tyre Burst,Wet,15,0
+Male,26-35,Doctorate,Owner,1-3 years,Bus,Company,None,Icy,8,0
+Male,46-60,Undergraduate,Employee,3-5 years,Bike,Private,None,Gravel,19,0
+Female,46-60,Postgraduate,Owner,1-3 years,Bus,Company,Tyre Burst,Icy,8,1
+Male,26-35,Postgraduate,Owner,1-3 years,Truck,Company,Tyre Burst,Snowy,19,1
+Female,18-25,Postgraduate,Employee,1-3 years,Bus,Private,None,Wet,5,0

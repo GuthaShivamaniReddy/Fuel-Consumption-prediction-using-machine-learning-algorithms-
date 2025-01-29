@@ -1,0 +1,31 @@
+how to run steps
+
+open anaconda prompt from search
+
+conda activate tf
+
+C:
+
+cd C:\Users\shiva\OneDrive\Desktop\project\New folder\Driver_Profile_Classification
+
+
+python manage.py runserver
+
+copy this link and paste in chorme website will open
+
+http://127.0.0.1:8000/
+
+service provider
+
+Admin
+Admin
+
+user 
+
+register and login 
+
+or 
+
+shanthan
+shan
+

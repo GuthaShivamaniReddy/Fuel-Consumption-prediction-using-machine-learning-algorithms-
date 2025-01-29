@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Russo+One&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background: url("{% static 'bg3.jpg' %}") no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            color: #FF5733;
+            text-align: center;
+            margin-top: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .topnav {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .topnav a {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .topnav a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            color: #000;
+        }
+
+        .topnav a.active {
+            background: #FF5733;
+            color: white;
+        }
+
+        .mainholder {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+            color: #FFF;
+        }
+
+        {% block styles %}
+        {% endblock %}
+    </style>
+</head>
+<body>
+
+<h1>Smart Fuel Consumption Prediction and Driver Profiling Using Machine Learning and ECU Data Analysis</h1>
+
+<div class="topnav">
+    <a href="{% url 'train_model' %}">Browse and Train & Test Health Insurance Data Sets</a>
+    <a href="{% url 'likeschart' 'bar' %}">View Trained and Tested Accuracy in Bar Chart</a>
+    <a href="{% url 'charts1' 'line' %}">View Trained and Tested Accuracy Results</a>
+    <a href="{% url 'View_Predicted_Driver_Profile_Classification_Type' %}">View Prediction Of Driving Profile Classification Type</a>
+    <a href="{% url 'View_Predicted_Driver_Profile_Classification_Type_Ratio' %}">View Driving Profile Classification Type Ratio</a>
+    <a href="{% url 'Download_Predicted_DataSets' %}">Download Predicted Data Sets</a>
+    <a href="{% url 'charts' 'line' %}">View Driving Profile Classification Type Ratio Results</a>
+    <a href="{% url 'View_Remote_Users' %}">View All Remote Users</a>
+    <a href="{% url 'index' %}">Logout</a>
+</div>
+
+<div class="mainholder">
+    {% block researchblock %}
+    {% endblock %}
+</div>
+
+</body>
+</html>

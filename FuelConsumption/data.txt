@@ -1,0 +1,21 @@
+Driver_Profile_Classification
+
+Machine Learning for Real Time Fuel Consumption Prediction and Driving Profile Classification Based on ECU Data
+
+Driving Profile Classification
+
+DRIVING PROFILE CLASSIFICATION
+
+Fuel Consumption Prediction and Driving Profile Classification
+
+sexofdriver
+agebandofdriver
+educationlevel
+vehicledriverrelation
+driverexperience
+typeofvehicle
+ownerofvehicle
+defectofvehicle
+roadsurfacecondition
+fuelconsumption
+label 

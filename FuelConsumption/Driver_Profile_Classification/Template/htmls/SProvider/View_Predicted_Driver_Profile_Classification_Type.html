@@ -1,0 +1,91 @@
+{% extends 'SProvider/Header.html' %}
+{% block researchblock %}
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        background-color: #000;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    #title {
+        font-size: 1.8rem;
+        text-align: center;
+        color: #ff4800;
+        margin: 20px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    table th,
+    table td {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    table th {
+        background-color:rgba(255, 87, 51, 0.8);
+        color: #fcfbfb;
+        font-weight: bold;
+    }
+
+    table td {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #FFF;
+        font-size: 1rem;
+    }
+
+    .text-uppercase {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #ff4800;
+    }
+</style>
+
+<body>
+    <p id="title">View Prediction Of Driving Profile Classification Type</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Sex of Driver</th>
+                <th>Age Band of Driver</th>
+                <th>Education Level</th>
+                <th>Vehicle-Driver Relation</th>
+                <th>Driver Experience</th>
+                <th>Type of Vehicle</th>
+                <th>Owner of Vehicle</th>
+                <th>Defect of Vehicle</th>
+                <th>Road Surface Condition</th>
+                <th>Fuel Consumption</th>
+                <th>Prediction</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for object in list_objects %}
+            <tr>
+                <td>{{ object.sexofdriver }}</td>
+                <td>{{ object.agebandofdriver }}</td>
+                <td>{{ object.educationlevel }}</td>
+                <td>{{ object.vehicledriverrelation }}</td>
+                <td>{{ object.driverexperience }}</td>
+                <td>{{ object.typeofvehicle }}</td>
+                <td>{{ object.ownerofvehicle }}</td>
+                <td>{{ object.defectofvehicle }}</td>
+                <td>{{ object.roadsurfacecondition }}</td>
+                <td>{{ object.fuelconsumption }}</td>
+                <td>{{ object.Prediction }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+{% endblock %}
