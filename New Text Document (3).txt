@@ -1,7 +1,1 @@
-conda create -n tf python==3.6.2
-conda activate tf
-pip instal requirments.txt
 
-database 
-database setup
-username : rootroot
