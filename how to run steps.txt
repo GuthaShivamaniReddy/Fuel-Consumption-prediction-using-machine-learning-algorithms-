@@ -1,17 +1,17 @@
 how to run steps
 
-open anaconda prompt from search
+open the anaconda prompt from the search and type the following cmd
 
 conda activate tf
 
 C:
 
-cd C:\Users\shiva\OneDrive\Desktop\project\New folder\Driver_Profile_Classification
+cd C:\Users\User\OneDrive\Desktop\project\New folder\Driver_Profile_Classification
 
 
 python manage.py runserver
 
-copy this link and paste in chorme website will open
+copy this link and paste it into Chrome, and the website will open
 
 http://127.0.0.1:8000/
 
@@ -23,9 +23,3 @@ Admin
 user 
 
 register and login 
-
-or 
-
-shanthan
-shan
-
